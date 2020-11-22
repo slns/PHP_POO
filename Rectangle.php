@@ -1,5 +1,6 @@
 <?php
 
-class Rectangle extends Shape {
+class Rectangle extends Shape
+{
     const SHAPE_TYPE = 2;
 }

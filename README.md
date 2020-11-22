@@ -15,10 +15,17 @@ cd /var/www/html/project<br /><br />
 docker-compose up -d
 ```
 <br />
-### Open the container
+### See existing containers
 
 ```
-docker-compose exec poo-php-fpm bash
+docker ps -a
+```
+
+<br />
+### Open the container, with name poo-php-fpm
+
+```
+docker exec -it poo-php-fpm /bin/sh
 ```
 
 ## Install dependencies
