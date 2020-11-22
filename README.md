@@ -14,14 +14,12 @@ cd /var/www/html/project<br /><br />
 ```
 docker-compose up -d
 ```
-<br />
 ### See existing containers
 
 ```
 docker ps -a
 ```
 
-<br />
 ### Open the container, with name poo-php-fpm
 
 ```
